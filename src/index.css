@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Comfortaa", sans-serif;
+  position: relative;
+  /* overflow: hidden; */
+}
+button{
+  font-family: "Comfortaa", sans-serif;
+}
+input , select{
+  font-family: "Oswald", sans-serif;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  gap: 20px;
+}
+.dark{
+  color: black;
+}
+.hidden{
+  overflow: hidden;
+}

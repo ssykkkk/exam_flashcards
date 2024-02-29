@@ -1,0 +1,42 @@
+.modalWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modalWrap.open {
+  display: flex;
+}
+.modalWrap.right {
+  justify-content: flex-end;
+}
+.modalWrap.left {
+  justify-content: flex-start;
+}
+.modalInner {
+  max-width: 90vw;
+  max-height: 80vh;
+  min-width: 400px;
+  min-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  cursor: pointer;
+}

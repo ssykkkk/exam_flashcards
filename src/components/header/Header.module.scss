@@ -1,0 +1,19 @@
+header {
+  background-color: #415a77;
+  .wrap {
+    display: flex;
+    a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #e0e1dd;
+      font-weight: 600;
+      transition: 0.3s;
+      &:hover {
+        background-color: #778da9;
+      }
+    }
+  }
+  .active {
+    background-color: #1b263b;
+  }
+}

@@ -1,0 +1,107 @@
+.wrap {
+  color: #0d1b2a;
+  padding: 20px;
+  position: relative;
+  > button {
+    position: absolute;
+    text-transform: uppercase;
+    right: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #415a77;
+    }
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      a:first-child {
+        text-transform: uppercase;
+        border: 2px solid #0d1b2a;
+        border-radius: 10px;
+        width: 560px;
+        padding: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #0d1b2a;
+        transition: 0.3s;
+        &:hover {
+          background-color: #c3cedc;
+          // text-decoration: underline;
+        }
+      }
+      > a:last-child {
+        color: #e0e1dd;
+        position: absolute;
+        right: 20px;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #1b263b;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: 0.3s;
+        &:hover {
+          background-color: #415a77;
+        }
+      }
+    }
+  }
+}
+.formModal{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    &:focus{
+      border: 2px solid #415a77;
+    }
+    &:valid{
+      text-transform: capitalize;
+    }
+  }
+  h3{
+    text-align: center;
+  }
+  button{
+    // text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: #415a77;
+    }
+  }
+}
